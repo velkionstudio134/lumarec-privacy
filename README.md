@@ -1,10 +1,9 @@
-# Política de privacidad de LumaRec Pro
+# Privacidad de LumaRec
 
-Página pública de privacidad de LumaRec Pro 1.4.0, desarrollada por Velkion Studio.
+Política pública de LumaRec gratuita (com.lumarec.free) y LumaRec Pro (com.lumarec.pro), versiones 1.4.1, con información de Pro 1.4.0.
 
-- Paquete: `com.lumarec.pro`.
-- Contacto público de soporte y privacidad: `velkionstdio@gmail.com`.
-- Sitio previsto: https://velkionstudio134.github.io/lumarec-privacy/
-- Publicación: GitHub Pages desde la rama `main`, directorio raíz.
+https://velkionstudio134.github.io/lumarec-privacy/
 
-Este repositorio contiene únicamente la página de privacidad. No contiene código de la app, archivos de firma, paquetes de distribución ni credenciales.
+Velkion Studio · soporte y privacidad: velkionstdio@gmail.com
+
+Este repositorio contiene solo la página de privacidad, sin código de la app ni credenciales.
