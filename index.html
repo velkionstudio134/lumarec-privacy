@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de privacidad de LumaRec Pro 1.4.0, una grabadora de vídeo para Android de Velkion Studio.">
+  <meta name="color-scheme" content="dark light">
+  <title>Política de privacidad · LumaRec Pro</title>
+  <style>
+    :root{color-scheme:dark;--bg:#100d10;--panel:#1c171c;--text:#f6f1f4;--muted:#c6bbc3;--line:#44343c;--accent:#ff6f86}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:17px/1.7 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    main{max-width:860px;margin:auto;padding:56px 24px 40px}header{border-bottom:1px solid var(--line);padding-bottom:28px;margin-bottom:32px}
+    .brand{color:var(--accent);font-weight:750;letter-spacing:.1em;font-size:.82rem;text-transform:uppercase}h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15;margin:12px 0 18px;letter-spacing:-.035em}
+    h2{font-size:1.3rem;line-height:1.35;margin:36px 0 12px}p{margin:12px 0}a{color:var(--accent);text-underline-offset:4px;overflow-wrap:anywhere}a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+    .meta,footer{color:var(--muted);font-size:.92rem}.summary{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:28px 0}
+    ul{padding-left:24px}li{margin:10px 0}code{font-size:.92em;overflow-wrap:anywhere}footer{margin-top:40px;padding-top:24px;border-top:1px solid var(--line)}
+    @media(max-width:520px){main{padding:32px 20px}.summary{padding:16px}}@media print{body{background:white;color:black}main{max-width:none;padding:0}a{color:black}.summary{background:white;border-color:#888}.meta,footer{color:#333}}
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div class="brand">Velkion Studio · LumaRec Pro</div>
+    <h1>Política de privacidad</h1>
+    <p class="meta">Última actualización: <time datetime="2026-10-05">5 de octubre de 2026</time><br>Aplicación: LumaRec Pro · versión 1.4.0 · <code>com.lumarec.pro</code></p>
+  </header>
+
+  <p>Esta política explica cómo LumaRec Pro, desarrollada por <strong>Velkion Studio</strong>, utiliza los datos y permisos del dispositivo. Para consultas de privacidad o soporte, escribe a <a href="mailto:velkionstdio@gmail.com">velkionstdio@gmail.com</a>.</p>
+
+  <div class="summary">
+    <strong>El procesamiento de la app es local.</strong>
+    <p>La versión 1.4.0 no requiere una cuenta, no declara permiso de acceso a Internet y no integra anuncios, analítica ni servicios propios de almacenamiento en la nube. La bóveda cifrada es opcional: debes activarla para guardar las nuevas grabaciones en ella. Sin la bóveda activa, los vídeos se guardan en la galería del dispositivo.</p>
+  </div>
+
+  <h2>1. Datos utilizados y finalidad</h2>
+  <p>LumaRec Pro utiliza las imágenes de la cámara y, cuando activas la grabación de audio, el sonido del micrófono para crear los vídeos que decides grabar. También procesa localmente tus preferencias de cámara, perfiles, nombres de vídeos, favoritos y ajustes de la biblioteca.</p>
+  <p>Si eliges una imagen para personalizar un acceso directo o widget, la app lee la imagen seleccionada mediante el selector de Android y conserva una copia local. Si eliges una carpeta para exportar, conserva la autorización que Android proporciona para escribir en ese destino.</p>
+  <p>La app no envía por sí misma tus vídeos, audio, credenciales de bóveda ni preferencias a Velkion Studio o a servidores de terceros.</p>
+
+  <h2>2. Permisos, grabación e indicadores</h2>
+  <ul>
+    <li><strong>Cámara:</strong> necesaria para grabar vídeo después de una acción del usuario.</li>
+    <li><strong>Micrófono:</strong> utilizado si decides incluir audio en la grabación.</li>
+    <li><strong>Notificaciones y servicio en primer plano:</strong> utilizados para mantener e informar de una grabación iniciada por ti, incluso después de bloquear la pantalla. La app solicita a Android una notificación del servicio mientras graba; su presentación también depende de los ajustes del sistema.</li>
+    <li><strong>Mantenimiento de la actividad del dispositivo:</strong> la app utiliza un bloqueo parcial de suspensión durante la grabación. Android puede detenerla por restricciones, temperatura, falta de espacio u otras condiciones del equipo.</li>
+    <li><strong>Protección de ventanas:</strong> las vistas protegidas de la bóveda restringen capturas de pantalla y superposiciones de otras aplicaciones.</li>
+  </ul>
+  <p>Android mantiene sus indicadores de uso de cámara y micrófono. LumaRec Pro no los oculta ni los desactiva. Puedes revisar o revocar los permisos desde los ajustes de Android.</p>
+  <p>Los widgets y el acceso de ajustes rápidos inician o detienen una grabación de vídeo. En particular, el widget con dibujo de linterna es un control de grabación: <strong>no funciona como una linterna</strong>. La notificación puede configurarse como detallada, con estado y control para detener, o compacta con un nombre que puede ser «LumaRec» o el elegido por el usuario. La opción compacta no muestra el texto de estado de grabación.</p>
+
+  <h2>3. Galería y bóveda cifrada</h2>
+  <p>Con la bóveda desactivada, los vídeos terminados se guardan como archivos MP4 en <code>Movies/LumaRec</code> mediante la biblioteca multimedia de Android. Otras aplicaciones con acceso permitido a esos archivos pueden leerlos. Las aplicaciones de galería o copia de seguridad que uses pueden tratarlos conforme a sus propias políticas.</p>
+  <p>Con la bóveda activada, los vídeos finalizados se cifran en el almacenamiento privado de LumaRec Pro. Esta versión utiliza cifrado AES-256-GCM para los nuevos archivos, claves protegidas mediante Android Keystore y RSA-OAEP para permitir capturas rápidas con la bóveda bloqueada. Durante la grabación se utiliza un archivo temporal interno antes de finalizar y cifrar el vídeo.</p>
+  <p>Para reproducir, compartir o exportar un vídeo de la bóveda debes desbloquearla mediante la credencial que configuraste. No existe un servicio de recuperación de contraseña o código. Velkion Studio no tiene acceso a tus claves ni puede recuperar estos vídeos por ti.</p>
+
+  <h2>4. Exportación y uso compartido</h2>
+  <p>Al exportar un vídeo de la bóveda, se te informa y se solicita confirmación antes de crear una copia sin cifrar en la carpeta que elijas. La exportación conserva el original cifrado.</p>
+  <p>Al compartir un vídeo privado, la aplicación receptora recibe una copia sin cifrar después de tu confirmación. La autorización temporal de acceso que concede LumaRec caduca a los 15 minutos; una copia que el receptor haya guardado puede permanecer bajo su control. Los destinos y aplicaciones que elijas, incluidos proveedores en la nube, aplican sus propias políticas de privacidad.</p>
+  <p>Desactivar la bóveda requiere confirmar el traslado de los vídeos a la galería. Los archivos que salgan de la bóveda dejan de estar protegidos por su cifrado.</p>
+
+  <h2>5. Conservación, eliminación y copias de seguridad</h2>
+  <p>Las grabaciones y preferencias locales se conservan hasta que las elimines o borres los datos de la app. Puedes eliminar vídeos desde la biblioteca de LumaRec Pro. Los archivos temporales de grabación se eliminan al finalizar el proceso de guardado; las copias temporales para compartir tienen acceso limitado en el tiempo.</p>
+  <p>Desinstalar LumaRec Pro o borrar sus datos elimina el almacenamiento privado y las claves de la bóveda. Esto puede hacer irrecuperables tus vídeos privados. Exporta primero cualquier vídeo que quieras conservar.</p>
+  <p>Los MP4 de la galería y las copias que hayas exportado o enviado a otras aplicaciones pueden permanecer fuera del almacenamiento privado. Debes eliminarlos también desde sus respectivos destinos si quieres borrarlos.</p>
+  <p>Las copias de seguridad y la transferencia automática de los datos privados de la app están desactivadas. Esta restricción no controla las copias que otras aplicaciones realicen de los vídeos de la galería o exportados.</p>
+
+  <h2>6. Consultas de soporte y esta página web</h2>
+  <p>Si escribes al correo de soporte, Velkion Studio utilizará la información que envíes para atender tu consulta. No envíes contraseñas, códigos de bóveda, claves privadas ni vídeos sensibles. El servicio de correo que utilices tiene sus propias condiciones de tratamiento de datos.</p>
+  <p>Esta página se aloja en GitHub Pages y no incluye scripts de analítica, publicidad ni formularios. Al visitarla, GitHub puede tratar datos técnicos de la conexión conforme a su <a href="https://docs.github.com/es/site-policy/privacy-policies/github-general-privacy-statement">declaración de privacidad</a>. Visitar esta web es distinto del funcionamiento local de la app.</p>
+
+  <h2>7. Cambios y contacto</h2>
+  <p>La versión y fecha al comienzo de esta página identifican el comportamiento descrito. Si una futura versión incorpora compras, red, anuncios, analítica u otros servicios, deberán revisarse la política y las declaraciones correspondientes. Las actualizaciones de esta política se publicarán en esta misma URL.</p>
+  <p><strong>Desarrollador:</strong> Velkion Studio<br><strong>Privacidad y soporte:</strong> <a href="mailto:velkionstdio@gmail.com">velkionstdio@gmail.com</a></p>
+  <footer>LumaRec Pro · Velkion Studio</footer>
+</main>
+</body>
+</html>
